@@ -1,0 +1,10 @@
+Reverse array: 如果想要reverse一个array， 或者是shift一个array的话， 可以用这个方法
+	nums => [1, 2, 3, | 4, 5, 6, 7]
+	nums => [7, 6, 5, | 4, 3, 2, 1] reversed
+
+	Set low = 0, high = nums.length -1 然后 
+	while(low < high) {
+		swap
+		low++
+		high--;
+	}
